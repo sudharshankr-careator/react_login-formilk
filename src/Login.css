@@ -1,42 +1,43 @@
 form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-  background-color: rgb(189, 241, 241);
-  width: 50%;
-  margin: 11rem 20rem;
-  padding: 3rem 0rem;
-  border-radius: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	background-color: rgb(189, 241, 241);
+	width: 50%;
+	margin: 11rem 20rem;
+	padding: 3rem 0rem;
+	border-radius: 1.5rem;
 }
 input {
-  width: 20rem;
-  height: 2rem;
-  margin: 1rem 0;
-  border: transparent;
-  border-radius: 4.5rem;
-  padding: 0.5rem;
-  background-color: rgb(249, 249, 253);
+	width: 20rem;
+	height: 2rem;
+	margin: 1rem 0;
+	border: transparent;
+	border-radius: 4.5rem;
+	padding: 0.5rem;
+	background-color: rgb(249, 249, 253);
 }
 input:focus {
-  outline: none;
-  background-color: rgb(241, 232, 232);
+	outline: none;
+	background-color: rgb(241, 232, 232);
 }
 button {
-  width: 10rem;
-  height: 2.5rem;
-  margin-left: 5rem;
-  margin-top: 1rem;
-  border: transparent;
-  border-radius: 4.5rem;
-  padding: 0.5rem;
-  color: rgb(224, 71, 71);
-  background-color: transparent;
-  cursor: pointer;
-  font-size: 2rem;
+	width: 10rem;
+	height: 2.5rem;
+	margin-left: 5rem;
+  padding-top: 5%;
+	margin-top: 1rem;
+	border: transparent;
+	border-radius: 4.5rem;
+	padding: 0.5rem;
+	color: rgb(238, 238, 238);
+	background-color: black;
+	cursor: pointer;
+	font-size: 1rem;
 }
